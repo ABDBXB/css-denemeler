@@ -15,6 +15,7 @@
 .col-sm-4:hover
 {
 	box-shadow: 1px 2px 3px;
+	border-radius: 5px;
 	width: 205px;
 	transition: 0.1;
 	animation: lop 0.6s;
@@ -44,6 +45,7 @@
 .col-sm-4:hover img
 {
 	opacity: 1;
+	border-radius: 5px;
 }
 .panel-body
 {
