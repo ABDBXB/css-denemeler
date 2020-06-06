@@ -126,3 +126,11 @@ section img
 {
 	height: 120vh;
 }
+.Contact 
+{
+	
+	position: fixed;
+	margin: 300px 0 0 0 ;
+}
+.Contact img{ border-bottom-right-radius:5px; border-top-right-radius:5px; width: 40px; transition: 0.5s;}
+.Contact img:hover{ border-bottom-right-radius: 9px; border-top-right-radius: 9px; width: 42px; box-shadow: 0px 3px 2px 1px gold; }
