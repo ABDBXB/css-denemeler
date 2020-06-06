@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../css/style.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="../css/students.css" media="screen">
+	<link rel="icon" href="../images/logo.png">
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Daralyaman</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+
+<div class="wrapper">
+	 <div class="header">
+	 
+	 <img src="../images/logo.png" alt="foto" width="150" height="150">
+	 
+	 
+	 
+	 
+	 
+    </div>
+	<div class="top-nav">
+		<ul>
+		  <li><a href="../index.html">الصفحة الرئيسية</a></li>
+		  <li><a href="../students/students.html">طلابنا</a></li>
+	  </ul>
+		<br>
+	</div>
+	<!-- TemplateBeginEditable name="original" --> 
+	<div class="content">
+		<br>
+      
+      <video width="500"  controls="controls" >
+        <source src="../videos/ALYAMAN.mp4" type="video/mp4">
+      </video>
+	 
+	 </div>
+	
+	<!-- TemplateEndEditable -->
+	
+	
+</div>	
+	
+	
+	
+	
+	
+
+	
+	
+	
+</body>
+</html>

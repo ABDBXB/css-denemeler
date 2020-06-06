@@ -1,0 +1,100 @@
+/* CSS Document */
+@font-face {
+  font-family: 'Amiri-Regular';
+  src: url('../fonts/Amiri-Regular.eot');
+  src: url('../fonts/Amiri-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Amiri-Regular.svg#Amiri-Regular') format('svg'),
+       url('../fonts/Amiri-Regular.ttf') format('truetype'),
+       url('../fonts/Amiri-Regular.woff') format('woff'),
+       url('../fonts/Amiri-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	list-style-type: none;
+	color: white;
+	text-decoration: none;
+}
+body
+{
+ 	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.wrapper
+{
+	width: 80%;
+	margin: 0px auto;
+	box-shadow: 1px 1px 5px 2px #f9a825;
+	border-radius: 5px;
+	border: 2px #f9a825 ridge;
+}
+
+.header
+{
+	background-color: black;
+	text-align: center;
+	border-top-right-radius: 15px; 
+	border-top-left-radius: 15px;
+
+}
+
+.top-nav
+{
+	background-color: red;
+	padding: 9px 2px 19px 0px;
+	background-image: linear-gradient(white,#333);
+
+	
+	
+}
+.top-nav ul li
+{
+	display: block;
+	float: right;
+
+	
+}
+.top-nav ul li a
+{
+	font-family: 'Amiri-Regular';
+	padding: 7px 50px;
+	border-left: 2px #333 solid;
+	
+
+}
+.top-nav ul li a:hover
+{
+	border-radius: 8px;
+	font-size: 17px;
+	transition: 0.2s;
+	
+}
+.content
+{
+	
+	text-align: justify;
+	padding: 1px 6px;
+	direction: rtl;
+	background-color: #7A7A7A;
+
+}
+.content video
+{
+	border-radius: 5px;
+	
+}
+.video-box
+{
+	width: 500px;
+	margin: 0px auto;
+	padding: 5px 0px;
+	
+}
+
+
