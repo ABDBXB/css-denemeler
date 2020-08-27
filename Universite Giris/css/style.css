@@ -1,0 +1,111 @@
+/* CSS Document */
+*{margin: 0px; padding: 0px; box-sizing: border-box; }
+a{text-decoration: none; color: #FFFFFF;}
+a:link			{ color: #FFFFFF;  }
+a:visited		{ color: #FFFFFF;  }
+a:active		{ color: #FFFFFF;  }
+a:focus			{ color: #FFFFFF;  }
+a:hover     	{ color: #FFFFFF;  }
+
+body{
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.head h1{
+    text-align: center;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    color: #fff;
+    font-weight: bold;
+	font-size: 50px;
+	text-shadow: 2px 3px #000;
+	
+}
+.img_continer{clear: both;}
+.content{ 
+	background-image: url("../images/content.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 1px 1.5px  4px 2px #ffffff;
+	width: 70%;
+	align-content: center;
+	margin: 15px auto;
+	padding: 10px;
+	border-radius: 3px;
+
+}
+.content table{
+	margin: 0px auto;
+	text-align: justify;
+	font-size: 20px;
+	width: 100%;
+	border: 2px #FFFFFF solid;
+	border-radius: 3px
+}
+.content table img{
+	width: 150px;
+	height: 60px;
+	display: block;
+	margin: 10px auto;
+	border-radius: 5px;
+	box-shadow: 1px 2px 10px 1px #333;
+
+}
+.content .img_continer:hover img {
+	width: 180px;
+	height: 80px;
+	border-radius: 40px;
+	box-shadow: 2px 3px 10px 3px #000;
+	transition: 0.7s;
+	animation: loop 3s;
+	animation-iteration-count: infinite; 
+}
+.content .ico_continer img{
+	transform:  rotateX(-10deg);
+	width: 50px;
+	height: 50px;
+	
+}
+.content .ico_continer:hover img {
+	width: 100px;
+	height: 65px;
+	box-shadow: 2px 3px 10px 3px #333;
+	transition: 0.7s;
+	animation: loop 0.6s;
+	animation-iteration-count: 4;
+}
+.content .img_continer:hover p{
+	text-decoration: underline;
+	font-size: 25px;
+	transition: 0.6s;
+}
+.content .ico_continer:hover p{
+	text-decoration: underline;
+	font-size: 22px;
+	transition: 0.6s;
+}
+
+
+
+.content table td{
+	text-align: center;
+	color: #FFFFFF;
+}
+.content .table_td{
+	font-size: 30px;
+	color: aqua;
+}
+.img_continer{
+	width: 85%;
+	margin: 0px auto;
+}
+@keyframes loop
+{
+	0% { transform:  rotateX(5deg) rotate(1deg); }
+	25% { transform: rotateX(-5deg) rotate(-1deg); }
+	50% { transform: rotateX(10deg); }
+	75% { transform: rotateX(-10deg); }
+	80% { transform: rotate(2deg); }
+	90% { transform: rotate(-2deg); }
+	100% { transform: rotateX(-1deg);}
+}
