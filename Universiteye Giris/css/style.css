@@ -8,10 +8,10 @@ a:focus			{ color: #FFFFFF;  }
 a:hover     	{ color: #FFFFFF;  }
 
 body{
-	background-image: url("../images/background.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
+	
 }
+.wrapper{width: 100%; height: 1080px; background-image: url("../images/background.jpg"); 	background-repeat: no-repeat;
+	background-size: cover; margin: 0px auto;}
 .head h1{
     text-align: center;
     font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
