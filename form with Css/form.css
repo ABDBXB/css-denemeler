@@ -1,0 +1,31 @@
+@charset "utf-8";
+tr{
+	background-color: greenyellow;
+}
+td:hover{
+	background-color: yellow;
+}
+th:hover{
+	background-color: red;
+}
+
+input:hover{
+	background-color: sandybrown;
+}
+.td{
+	background-color: white;
+	border-color: white;
+}
+.td:hover{
+	background-color: white;
+}
+img:hover{
+	width: 90px;
+}
+.ip:hover{
+	background-color:gold;
+	font-family: impatc;
+	font-size: 11pt;
+	color: red;
+	
+}

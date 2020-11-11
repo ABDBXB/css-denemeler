@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="form.css">
+<meta charset="utf-8">
+<title>FORM</title>
+</head>
+
+<body>
+	<table align="center" cellpadding="5" cellspacing="6" bgcolor="#321E01" width="1000"><!--not!-->
+		<form action="dosya.php" method="post">
+	<caption><font size="+6">FORM</font></caption>
+		
+		
+		<tr bgcolor="#CCA70D">
+		<th>Adınız:</th>
+		<td><input type="text" placeholder="Ali" name="isim" maxlength="10"><input type="hidden" value="200"></td>
+		</tr>
+			
+		<tr bgcolor="#CCA70D">
+		<th>Soyadınız:</th>
+		<td><input type="text" placeholder="klai" name="soyad" maxlength="10"></td>	
+		</tr>
+			
+		<tr bgcolor="#CCA70D">
+		<th>T.C. Kimlik</th>
+		<td><input type="text" placeholder="25186335487" maxlength="11"></td>	
+		</tr>
+		
+	  <tr bgcolor="#CCA70D">
+		<th>T. Numarası:</th>	
+		<td><input type="text" maxlength="10" placeholder="5537669844"></td>
+		</tr>
+		
+	  <tr bgcolor="#CCA70D">
+		<th>Doğum T. :</th>
+		<td><input type="date" name="dogum"></td>	
+		</tr>
+			
+		<tr bgcolor="#CCA70D">
+		<th>Şifre:</th>	
+		<td><input type="password" placeholder="A.s16.A" maxlength="8" name="sifre"></td>
+		</tr>
+			
+		
+		<tr bgcolor="#CCA70D">
+		<th>Cinsiyet:</th>	
+		<td>
+		<input type="radio" name="radio">ERKEK &ensp;<input type="radio" name="radio">KADIN
+		</td>
+		</tr>
+			
+		<tr bgcolor="#CCA70D">
+		<th>Fotoğraf:</th>	
+			<td width="500"><center><input type="file"></center></td>
+		</tr>
+			
+		<tr bgcolor="#CCA70D">
+		<th>Sevdiğiniz Yemekler:</th>	
+		<td><input type="checkbox">Dolma &ensp; <input type="checkbox">Melemen
+		 	<input type="checkbox">Sarma &ensp; <input type="checkbox">Makarna
+			<input type="checkbox">Nohut &ensp; <input type="checkbox">Pilav
+		</td>	
+		</tr>
+		<tr bgcolor="#CCA70D">
+		<th>Programlama Dilleri:</th>	
+		<td>
+		<select multiple size="3">
+		<optgroup label="Web Dilleri">
+		<option>HTML</option>
+		<option>CSS</option>
+		<option>JAVA SCRİPT</option>
+		</optgroup>	
+		<optgroup label="Masaüstü P.D.">
+		<option selected>C</option>
+		<option>C#</option>
+		<option>C++</option>
+		<option>Python</option>
+		</optgroup>
+		</select>
+		</td>
+		</tr>
+			
+		<tr bgcolor="#CCA70D">
+		<th>Bize Yazın:</th>
+		<td><textarea rows="12" cols="22" placeholder="Görüşlerinizi Bizimle Paylaşın"></textarea><img src="images/23.png" width="80" alt="fikir"></td>
+		</tr>	
+		<tr bgcolor="#CCA70D"><td colspan="2"><input type="radio">
+		  <font color="red">*</font>Tüm şartları okudum,onaylıyorum.</td></tr>
+		<tr bgcolor="#CCA70D">
+		<td><input type="submit" value="GÖNDER" onClick="alert('THANKS ;) ')"></td>
+		<th> <input type="reset" value="FORM İÇERİĞİ TEMİZLE"></th>
+		</tr>
+	</form>
+	</table>
+	<table align="center" width="1004" ><tr><td align="right" class="td"><a href="mailto:abd.albasaleh@hotmail.com?subject=HATA BİLDİRİMİ"><input type="button" value="Hata Buldum!!"  class="ip"></a></td></tr></table>
+	<a href="mailto:abd.albasaleh@hotmail.com?subject=FORM İÇİN BİR SORU"><img src="images/hiclipart.com.png" width="80" title="Sorum var" alt="soru"></a> 
+	<a href="mailto:abd.albasaleh@hotmail.com?subject=TEŞEKKÜR"><img src="images/2.png" width="80" title="Beğendim" alt="BEĞENDİM" align="right"></a>
+</body>
+</html>
