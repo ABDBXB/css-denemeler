@@ -1,0 +1,101 @@
+/* CSS Document */
+*{margin: 0px; padding: 0px; box-sizing: border-box; }
+body
+{
+
+}
+.master
+{
+	width: 100%;
+	border: 1px red dashed;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.menu
+{
+
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 70px;
+	background-color: #7ACAFC;
+	position: fixed;
+	box-shadow: 0px 1px 15px 0.5px black;
+	z-index: 100;
+}
+
+.menu img {float: left;}
+.menu ul li{ list-style-type: none; display: inline-flex; margin: 10px 0px 5px 10px; }
+.menu ul li a { background: #B719E1; padding: 13px 13px; text-decoration: none; color: gold; font-size: 20px; border-radius: 60px;}
+.menu ul:hover li { opacity: 0.5; }
+.menu ul li:hover { opacity: 1;}
+.menu ul li:hover a { font-size: 21px; border-radius: 6px; transition: 0.2s; box-shadow: 0px 0px 5px 1px #333; animation: mov 0.2s;}
+
+
+
+.i_list {display: none; position: absolute; top: 62px; background-color: rgba(146,5,192,0.85); filter: blur(0.2); width: 100px; border-radius: 2px; color: gold; font-size: 25px;}
+.i_list ul li {display: block; margin: 2px 4px;; text-align: center; padding: 20px;}
+.i_list ul li:hover {background: #9253EC; border-radius: 6px; box-shadow: 0px 0.1px 5px 0.5px #000; transform: rotate(720deg); transition: 0.2s; }
+
+.list1:hover .i_list{ display: block;}
+.list2:hover .i_list{ display: block;}
+.list3:hover .i_list{ display: block;}
+
+
+.side
+{
+	text-align: center;
+	width: 250px;
+	position: relative;
+	top: 90px;
+	float: right;
+	border: 1px dotted green;
+}
+.content h1{column-span: all;}
+.content
+{
+	left: 10%;
+	top: 90px;
+	width: 900px;
+	text-align: center;
+	position: relative;
+	border: 1px dashed green;
+	margin-bottom: 150px;
+	padding-bottom: 10px;
+	padding: 5px;
+	column-count: 5;
+	column-rule: 1px solid lightblue;
+
+}
+.footer
+{
+	
+	width: 100%;
+	height: 70px;
+	clear: both;
+	bottom: 0px;
+	border: 1px dotted brown;
+	box-shadow: 0px -1px 8px 1px #333;
+	text-align: center;
+	
+}
+
+
+@keyframes mov
+{
+	0%{transform: rotatey(180deg);}
+	50%{transform: rotatey(270deg);}
+	100%{transform: rotatey(360deg);}
+}
+.menu:after
+{
+	z-index: -1;
+	content: '';
+	position: absolute;
+	top: 70px;
+	width: 100%;
+	height: 10px;
+	background: rgba(0,255,251,0.59);
+	filter: blur(12px);
+}
